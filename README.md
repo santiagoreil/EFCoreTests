@@ -22,8 +22,8 @@ After configuring, you can run the migrations:
 
 You have two options. Remove the Migrations folder and run both calls to be sure this works correctly:
 
-PM>Add-Migration Initial
-PM>Update-Database
+	PM>Add-Migration Initial
+	PM>Update-Database
 
 This will really test that the definitions with code first really work.
 
